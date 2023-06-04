@@ -1,8 +1,8 @@
-// window.onload = function() {
+window.onload = function() {
  
-  pronoun = ['the', 'our'];
-  adj =     ['great', 'big'];
-  noun =    ['jogger', 'racoon'];
+  pronoun = ['the', 'our', 'my', 'your', 'his', 'her', 'their'];
+  adj =     ['great', 'big', 'amazing', 'wacky', 'funky', 'quirky', 'zany'];
+  noun =    ['jogger', 'racoon', 'adventure', 'dream', 'wonder', 'bliss', 'magic'];
   extensions = ['.com', '.net', '.us', '.io'];
 
   // Create an empty array to store the generated domain 
@@ -27,7 +27,5 @@
       domainList.appendChild(listItems);
    }
   
-
-
-// };
+};
 
