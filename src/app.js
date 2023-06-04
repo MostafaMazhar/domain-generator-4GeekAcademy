@@ -15,13 +15,18 @@
        let domain = pr + adjWord + nounWord + ext;
       //  Add the domain name to the array of domainNames:
        domainNames.push(domain);
-       console.log(domain)
+       console.log(domain);
         }
       }
     }
   }
-   
-
+   let domainList = document.getElementById('domainList');
+      for(domain of domainNames){
+      let itemList = document.createElement('li');  //  element will represent each domain name in the list
+      itemList.textContent = domain;  // assign domain name as the txt inside the listItem
+     
+   }
+  
 
 
 // };
