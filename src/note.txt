@@ -1,0 +1,29 @@
+
+Define the arrays of pronouns, adjectives, and nouns:
+pronoun = ['the', 'our'];
+adj = ['great', 'big'];
+noun = ['jogger', 'racoon'];
+
+Define the array of extensions:
+extensions = ['.com', '.net', '.us', '.io'];
+
+Create an empty array to store the generated domain names:
+domainNames = [];
+
+Iterate over each pronoun:
+for each pr in pronoun:
+
+Iterate over each adjective:
+for each adjWord in adj:
+
+Iterate over each noun:
+for each nounWord in noun:
+
+Iterate over each extension:
+for each ext in extensions:
+
+Concatenate the words and extension to form a domain name:
+domain = pr + adjWord + nounWord + ext;
+
+Add the domain name to the array of domain names:
+domainNames.push(domain);
