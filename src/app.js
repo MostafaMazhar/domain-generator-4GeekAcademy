@@ -22,9 +22,9 @@
   }
    let domainList = document.getElementById('domainList');
       for(domain of domainNames){
-      let itemList = document.createElement('li');  //  element will represent each domain name in the list
-      itemList.textContent = domain;  // assign domain name as the txt inside the listItem
-     
+      let listItems = document.createElement('li');  //  element will represent each domain name in the list
+      listItems.textContent = domain;  // assign domain name as the txt inside the listItem
+      domainList.appendChild(listItems);
    }
   
 
